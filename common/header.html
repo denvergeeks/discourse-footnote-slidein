@@ -4,7 +4,7 @@
       id: "footnote-panel-button",
       group: "extras",
       icon: "columns",
-      perform: e => e.applySurround("[footnote]", "[/footnote]", "footnote_text")
+      perform: e => e.applySurround("^[", "]", "footnote_text")
     });
   });
 </script>
