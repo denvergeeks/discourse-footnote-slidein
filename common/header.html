@@ -1,0 +1,10 @@
+<script type="text/discourse-plugin" version="0.8">
+  api.onToolbarCreate(toolbar => {
+    toolbar.addButton({
+      id: "footnote-panel-button",
+      group: "extras",
+      icon: "sticky-note",
+      perform: e => e.applySurround("[footnote]", "[/footnote]", "footnote_text")
+    });
+  });
+</script>
