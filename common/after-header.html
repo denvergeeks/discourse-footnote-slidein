@@ -1,0 +1,29 @@
+<style>
+  .footnote-panel {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  .footnote-panel.is-visible {
+    right: 0;
+  }
+
+  .footnote-panel-content {
+    padding: 20px;
+  }
+
+  .close-panel {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+</style>
